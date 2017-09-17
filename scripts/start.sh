@@ -1,5 +1,5 @@
 #!/bin/bash
-if ! [ -d /home/vagrant/$1 ];
+if [ ! -d /home/vagrant/$1 ];
 then
   sudo mkdir /home/vagrant/$1
 fi
